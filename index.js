@@ -8,8 +8,8 @@ Trampolines, to emulate tail-call recursion.
 
 [![Build Status](https://secure.travis-ci.org/phadej/trampa.svg?branch=master)](http://travis-ci.org/phadej/trampa)
 [![NPM version](https://badge.fury.io/js/trampa.svg)](http://badge.fury.io/js/trampa)
-[![Dependency Status](https://david-dm.org/trampa/trampa.svg)](https://david-dm.org/trampa/trampa)
-[![devDependency Status](https://david-dm.org/trampa/trampa/dev-status.svg)](https://david-dm.org/trampa/trampa#info=devDependencies)
+[![Dependency Status](https://david-dm.org/phadej/trampa.svg)](https://david-dm.org/trampa/trampa)
+[![devDependency Status](https://david-dm.org/phadej/trampa/dev-status.svg)](https://david-dm.org/trampa/trampa#info=devDependencies)
 [![Code Climate](https://img.shields.io/codeclimate/github/phadej/trampa.svg)](https://codeclimate.com/github/phadej/trampa)
 
 ## Synopsis
