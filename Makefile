@@ -10,20 +10,16 @@ MOCHA=$(BINDIR)/_mocha
 ISTANBUL=$(BINDIR)/istanbul
 JSHINT=$(BINDIR)/jshint
 ESLINT=$(BINDIR)/eslint
-JSCS=$(BINDIR)/jscs
 DAVID=$(BINDIR)/david
 LJS=$(BINDIR)/ljs
 
-test : jshint eslint jscs mocha istanbul david
+test : jshint eslint mocha istanbul david
 
 jshint :
 	$(JSHINT) $(SRC)
 
 eslint :
 	$(ESLINT) $(SRC)
-
-jscs :
-	$(JSCS) $(SRC)
 
 david :
 	$(DAVID)
